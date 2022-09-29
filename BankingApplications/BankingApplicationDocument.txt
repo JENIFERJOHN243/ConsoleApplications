@@ -1,0 +1,28 @@
+  *****BANKING CONSOLE APPLICATION*****
+
+
+Main Class - BankingApplication
+ 1) startProcess(Method)
+
+Class - BankAccount 
+ 1) createAccount(Method)
+   * Getting details from new users(Name,Phn.No,Initial Amount)
+   * Setting Account No,Passcode & Customer Id for users 
+ 2) showMenu(Method)
+   * checkBalance
+   * deposit
+   * withdraw
+   * getMiniStatement
+   * exit
+
+Class - PersonalDetails(for holding customer details)
+ 1) POJO Class - holds
+   * customerName
+   * phoneNumber
+   * balance
+   * accountNumber
+   * passCode
+   * initialDepositAmount
+   * customerId
+   * depositAmount
+   * withdrawAmount
